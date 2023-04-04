@@ -16,14 +16,14 @@ const osmLayer = new ol.layer.Tile({
 });
 const lightGrayMapLayer = new ol.layer.Tile({
   source: new ol.source.XYZ({
-    url: "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}@2x.png",
+    url: "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}@2x.png?api_key=1c323ad5-74e3-4b80-b8bb-d337f1e29f05",
   }),
   visible: false,
   layername: "light_gray_alidade",
 });
 const darkMapLayer = new ol.layer.Tile({
   source: new ol.source.XYZ({
-    url: "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}@2x.png",
+    url: "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}@2x.png?api_key=1c323ad5-74e3-4b80-b8bb-d337f1e29f05",
   }),
   visible: false,
   layername: "dark_alidade",
